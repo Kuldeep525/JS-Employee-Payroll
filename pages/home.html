@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Ui</title>
+    <link rel="stylesheet" href="../style\EmployeeUI.css">
+</head>
+
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../assests/logo.png" alt="Hover image">
+            <div>
+                <span class="emp-text">Employee</span><br>
+                <span class="emp_text">PayRoll</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <!---UC2-->
+        <div class="header-content">
+            <div class="emp-details-text">
+           Employee Details <div class="emp-count">10</div>
+        </div>
+        <a href="./EmployeePayRoll.html" class="add-button">
+        <img src="" alt="">Add user</a>
+    </div> <!--header-content -->
+    <div class="table-main">
+        <table id="table-display" class="table">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td><img class = "profile" src="./assests\p1.png" alt=""></td>
+                <td>Kuldeep Pandey</td>
+                <td>male</td>
+                <td><div class="dept-label">HR</div>
+                <div class="dept-label">Finance</div></td>
+                <td>300000</td>
+                <td>1 Nov 2020</td>
+                <td>
+                    <img id="1" onclick="remove(this)" src="" alt="delete">
+                    <img id="1"  alt="edit" onclick="update(this)" src="">
+                </td>
+            </tr>
+        </table>
+    </div> <!--tablemain-->
+</div><!---main content-->
+</body>
+
+</html>
